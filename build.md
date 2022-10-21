@@ -1,13 +1,12 @@
 CLI: revanced-cli-2.15.0-all.jar  
-Integrations: app-release-unsigned-v0.52.1.apk  
-Patches: revanced-patches-2.82.0.jar  
-### [2.82.0](https://github.com/revanced/revanced-patches/compare/v2.81.11...v2.82.0) (2022-10-13)
+Integrations: app-release-unsigned-v0.54.0.apk  
+Patches: revanced-patches-2.85.1.jar  
+#### [2.85.1](https://github.com/revanced/revanced-patches/compare/v2.85.0...v2.85.1) (2022-10-21)
+### Bug Fixes
+* **youtube/theme:** extend dark mode theming ([#827](https://github.com/revanced/revanced-patches/issues/827)) ([6d803c5](https://github.com/revanced/revanced-patches/commit/6d803c5386e1f6f6fb6a7fa0a9f0bb81ee1022ac))
 
-### Features
-
-* **youtube/remember-video-quality:** remember the quality until changed by default ([1aebabe](https://github.com/revanced/revanced-patches/commit/1aebabefdb0b163e0020fd3b52d7d1fa2404764b))
   
-Twitter: 9.63.0-release.0  
+Twitter: 9.64.0-release.0  
 YouTube: 17.36.37  
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
