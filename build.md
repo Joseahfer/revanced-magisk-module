@@ -27,7 +27,7 @@ Patches: revanced-patches-2.166.0.jar
   
 **App Versions:**  
 YouTube: 18.05.40  
-Twitter: 9.71.0-release.0  
+Twitter: 9.81.0-release.0  
 Twitch: 14.6.1  
 TikTok: 27.8.3  
 
