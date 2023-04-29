@@ -7,16 +7,16 @@ build-mindetach-module = true
 
 [YouTube]
 enabled = true
-build-mode = "both"                                                   # 'both', 'apk' or 'module'
-excluded-patches = ""                                                 # space-seperated patches to exclude (multiline strings are not supported)
-included-patches = ""                                                 # space-seperated patches to include (non-excluded patches are included by default)
+build-mode = "module"                                                   # 'both', 'apk' or 'module'
+excluded-patches = "enable-debugging return-youtube-dislike always-autorepeat swipe-controls seekbar-tapping premium-heading custom-branding" # space-seperated patches to exclude (multiline strings are not supported)
+included-patches = "downloads hide-email-address hide-floating-microphone-button hide-shorts-button hide-cast-button hide-create-button" # space-seperated patches to include (non-excluded patches are included by default)
 version = "auto"                                                      # 'auto', 'latest', 'beta' or a custom one like '17.40.41'
 exclusive-patches = false                                             # excludes all patches by default
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 module-prop-name = "ytrv-magisk"
 
 [Music-arm64]
-build-mode = "both"
+build-mode = "module"
 app-name = "Music"
 excluded-patches = ""
 included-patches = ""
@@ -26,6 +26,7 @@ module-prop-name = "ytmusicrv-magisk"
 arch = "arm64-v8a"
 
 [Music-arm]
+enabled = false
 build-mode = "both"
 app-name = "Music"
 excluded-patches = ""
@@ -37,11 +38,12 @@ arch = "arm-v7a"
 
 [Twitter]
 build-mode = "apk"
-excluded-patches = "hide-views-stats"
+included-patches = "hide-recommended-users hide-ads"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitter-inc/twitter/"
 
 [Reddit]
+enabled = false
 build-mode = "apk"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
@@ -52,6 +54,7 @@ version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 
 [TikTok]
+included-patches = "hide-ads show-seekbar settings playback-speed feed-filter downloads"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
 
