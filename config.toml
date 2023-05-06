@@ -38,7 +38,6 @@ arch = "arm-v7a"
 
 [Twitter]
 build-mode = "apk"
-included-patches = "hide-recommended-users hide-ads"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitter-inc/twitter/"
 
