@@ -1,5 +1,6 @@
 YouTube-Extended: 18.17.43  
-Music-arm64: 5.39.52  
+Music-Extended (arm64-v8a): 6.03.51  
+Music-Extended (arm-v7a): 6.03.51  
 Twitter: 9.90.0-release.0  
 Twitch: 14.6.1  
 TikTok: 27.8.3  
@@ -38,7 +39,6 @@ YouTube Music
 - [European Countries](https://crowdin.com/project/revancedextendedeu)
 - [Other Countries](https://crowdin.com/project/revancedextended)
 ---
-  
 CLI: j-hc/revanced-cli-2.22.0-all.jar  
 Integrations: revanced/revanced-integrations-0.108.0.apk  
 Patches: revanced/revanced-patches-2.174.0.jar  
@@ -90,5 +90,4 @@ Patches: revanced/revanced-patches-2.174.0.jar
 
 
 
----
-    
+---  
