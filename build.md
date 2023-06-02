@@ -1,10 +1,10 @@
 YouTube-Extended: 18.17.43  
-Music-Extended: 6.03.51  
-Twitter: 9.90.0-release.0  
+Music-Extended: 6.04.51  
+Twitter: 9.91.0-release.0  
 Twitch: 14.6.1  
-TikTok: 29.8.2  
+TikTok: 29.8.4  
 
-Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or Music  
+Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube or YT Music  
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
 
