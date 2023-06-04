@@ -1,5 +1,5 @@
 YouTube-Extended: 18.17.43  
-Music-Extended: 6.04.51  
+Music-Extended: 6.04.52  
 Twitter: 9.91.0-release.0  
 Twitch: 14.6.1  
 TikTok: 29.8.4  
