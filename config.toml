@@ -26,7 +26,6 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 [Music]
 enabled = false
 build-mode = "both"
-app-name = "Music"
 excluded-patches = ""
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 arch = "both"
