@@ -1,8 +1,8 @@
+Music-Extended: 6.05.51  
 YouTube-Extended: 18.17.43  
-Music-Extended: 6.04.52  
-Twitter: 9.91.0-release.0  
+Twitter: 9.92.0-release.0  
 Twitch: 14.6.1  
-TikTok: 29.8.4  
+TikTok: 29.9.4  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube or YT Music  
 
