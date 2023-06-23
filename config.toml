@@ -50,7 +50,7 @@ build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 
 [TikTok]
-included-patches = "show-seekbar"
+included-patches = "settings show-seekbar hide-ads feed-filter"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
 
 [Reddit]
