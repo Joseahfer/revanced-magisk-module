@@ -1,9 +1,9 @@
 YouTube: 18.23.35  
-Music: 6.14.50  
-Twitter: 10.2.0-release.0  
+Music: 6.15.51  
+Twitter: 10.3.0-release.0  
 Twitch: 15.4.1  
-TikTok: 30.8.4  
-Reddit: 2023.31.0  
+TikTok: 30.9.4  
+Reddit: 2023.32.1  
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
 ---
