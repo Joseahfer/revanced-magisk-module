@@ -1,10 +1,10 @@
 YouTube: 18.32.39  
-Music-Extended (arm64-v8a): 6.19.51  
-Music-Extended (arm-v7a): 6.19.51  
+Music-Extended: 6.19.51  
 YouTube-Extended: 18.31.40  
 Music: 6.19.51  
 Twitter: 10.7.0-release.0  
 Twitch: 15.4.1  
+TikTok: 31.3.3  
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
 
