@@ -6,7 +6,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 [YouTube]
 build-mode = "module"                                                   # 'both', 'apk' or 'module'
-excluded-patches = "always-autorepeat custom-branding external-downloads premium-heading swipe-controls vanced-microg-support"    # space-seperated patches to exclude (multiline strings are not supported)
+excluded-patches = "'External downloads' 'Swipe controls' 'Always autorepeat' 'Vanced MicroG support' 'Premium heading'"
 included-patches = ""                                                 # space-seperated patches to include (non-excluded patches are included by default)
 version = "auto"                                                      # 'auto', 'latest', 'beta' or a custom one like '17.40.41'
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
@@ -42,6 +42,7 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.ap
 
 [TikTok]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
+version = "30.8.4"
 
 [Reddit]
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
