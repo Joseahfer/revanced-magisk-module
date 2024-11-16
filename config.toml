@@ -10,7 +10,7 @@ parallel-jobs = 1
 build-mode = "both"
 excluded-patches = "'Downloads' 'Swipe controls' 'Always repeat'"
 included-patches = "'Custom branding'"
-patcher-args = "-OappName=YouTube RV"
+patcher-args = "-OappName='YouTube RV'"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube" # fallback
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
