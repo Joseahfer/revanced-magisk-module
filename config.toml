@@ -16,28 +16,28 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
-[Twitch-Revanced]
+[Twitch]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch"
 uptodown-dlurl = "https://twitch.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
 
-[Twitter-Revanced]
+[Twitter]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
 build-mode = "apk"
 dpi = "120-640dpi"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
 
-[TikTok-Revanced]
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
+[TikTok]
+apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly"
 included-patches = "'SIM spoof'"
 
-[Spotify-Revanced]
+[Spotify]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/spotify-ab/spotify-music-and-podcasts-amazon-fire-tablet-version"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 arch = "arm64-v8a"
 included-patches = "'Custom theme'"
 
-[Reddit-Revanced]
+[Reddit]
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit"
 arch = "arm64-v8a"
 build-mode = "apk"
