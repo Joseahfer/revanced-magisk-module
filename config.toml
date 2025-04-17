@@ -15,12 +15,12 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 [Reddit]
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit"
+apkmirror-dpi = "120-640dpi"
 patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 included-patches = "'Change package name'"
-apkmirror-dpi = "120-640dpi"
-patcher-args = "--legacy-options=options.json"
+patcher-args = "-e 'Change package name' -OpackageNameReddit=com.reddit.frontpage.revanced"
 
 [Twitter]
 enabled = false
