@@ -1,5 +1,6 @@
 Reddit: 2025.12.1  
 Spotify: 9.0.38.433  
+Tiktok: 36.5.4  
 YouTube: 20.07.39  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
