@@ -3,6 +3,7 @@ parallel-jobs = 1
 compression-level = 9
 
 [YouTube]
+enabled = false
 build-mode = "apk"
 excluded-patches = "'Downloads' 'Swipe controls' 'Always repeat'"
 included-patches = "'Custom branding'"
@@ -17,24 +18,27 @@ apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit"
 patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
-included-patches = "'Change version code'"
+included-patches = "'Change version code' 'Change package name'"
 apkmirror-dpi = "120-640dpi"
 
+[Twitter]
+apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
+patches-source = "crimera/revanced-integrations"
+cli-source = "crimera/piko"
+build-mode = "apk"
+dpi = "120-640dpi"
+version = "auto"
+
 [Twitch]
+enabled = false
 build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch"
 uptodown-dlurl = "https://twitch.en.uptodown.com/android"
 version = "auto"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
 
-[Twitter]
-apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
-build-mode = "apk"
-dpi = "120-640dpi"
-version = "auto"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
-
 [Tiktok]
+enabled = false
 build-mode = "apk"
 apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
 included-patches = "'SIM spoof'"
@@ -42,6 +46,7 @@ version = "auto"
 arch = "arm64-v8a"
 
 [Spotify]
+enabled = false
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
