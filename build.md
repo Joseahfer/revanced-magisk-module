@@ -1,5 +1,4 @@
-Reddit: 2024.17.0  
-Spotify: 9.0.36.683  
+Reddit-Revanced: 2024.17.0  
 YouTube: 20.07.39  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
