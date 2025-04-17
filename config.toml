@@ -25,11 +25,9 @@ rv-brand = "ReVanced Extended"
 
 [Twitter]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
-patches-source = "ReVanced/revanced-cli"
+patches-source = "crimera/piko"
 integrations-source = "crimera/revanced-integrations"
-cli-source = "crimera/piko"
-patches-version = "v4.6.0"
-build-mode = "apk"
+rv-brand = "crimera ReVanced"
 dpi = "120-640dpi"
 version = "auto"
 
