@@ -13,15 +13,15 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 [Reddit]
+enabled = false
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit"
 apkmirror-dpi = "120-640dpi"
 patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
-included-patches = "'Change package name'"
-patcher-args = "-e 'Change package name' -OpackageNameReddit=com.reddit"
-version = "2024.17.0"
+#included-patches = "'Change package name'"
+#patcher-args = "-e 'Change package name' -OpackageNameReddit=com.reddit"
 
 [Twitter]
 enabled = false
