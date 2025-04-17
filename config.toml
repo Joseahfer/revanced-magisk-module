@@ -1,10 +1,6 @@
-enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
+enable-magisk-update = true
 parallel-jobs = 1
-
-# add 'enabled = false' for not patching a specific app or remove it from the config
-# see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
-
-# you can use rvmm-config-gen to generate a config
+compression-level = 9
 
 [YouTube]
 build-mode = "apk"
@@ -31,13 +27,21 @@ dpi = "120-640dpi"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly"
 included-patches = "'SIM spoof'"
 
-[Spotify]
-apkmirror-dlurl = "https://www.apkmirror.com/apk/spotify-ab/spotify-music-and-podcasts-amazon-fire-tablet-version"
-uptodown-dlurl = "https://spotify.en.uptodown.com/android"
-arch = "arm64-v8a"
-included-patches = "'Custom theme'"
-
 [Reddit]
+uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit"
+patches-source = "anddea/revanced-patches"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Extended"
+included-patches = "'Change version code' 'Custom branding name for Reddit'"
+patcher-args = "--legacy-options=options.json"
+apkmirror-dpi = "120-640dpi"
+
+[Spotify]
+uptodown-dlurl = "https://spotify.en.uptodown.com/android"
+patches-source = "anddea/revanced-patches"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Extended"
+included-patches = "'Change version code' 'Custom branding name for Spotify' 'Custom theme'"
+patcher-args = "--legacy-options=options.json"
 arch = "arm64-v8a"
-build-mode = "apk"
