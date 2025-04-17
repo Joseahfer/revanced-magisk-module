@@ -12,12 +12,14 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 [Reddit]
-build-mode = "apk"
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit"
-patcher-args = "-OappName='Reddit'"
+patches-source = "anddea/revanced-patches"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Extended"
+included-patches = "'Change version code' 'Custom branding name for Reddit'"
+patcher-args = "--legacy-options=options.json"
 apkmirror-dpi = "120-640dpi"
-version = "auto"
 
 [Twitch]
 build-mode = "apk"
@@ -41,8 +43,10 @@ version = "auto"
 arch = "arm64-v8a"
 
 [Spotify]
-build-mode = "apk"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
-included-patches = "'Custom theme'"
-patcher-args = "-OappName='Spotify'"
+patches-source = "anddea/revanced-patches"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Extended"
+included-patches = "'Change version code' 'Custom branding name for Spotify' 'Custom theme'"
+patcher-args = "--legacy-options=options.json"
 arch = "arm64-v8a"
