@@ -1,6 +1,6 @@
 enable-magisk-update = true
 parallel-jobs = 1
-compression-level = 9
+# compression-level = 9
 
 [YouTube]
 enabled = false
@@ -18,11 +18,12 @@ apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit"
 patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
-included-patches = "'Change version code' 'Change package name'"
+included-patches = "'Change package name'"
 apkmirror-dpi = "120-640dpi"
 patcher-args = "--legacy-options=options.json"
 
 [Twitter]
+enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
 patches-source = "crimera/revanced-integrations"
 cli-source = "crimera/piko"
