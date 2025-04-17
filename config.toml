@@ -20,6 +20,7 @@ cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 included-patches = "'Change version code' 'Change package name'"
 apkmirror-dpi = "120-640dpi"
+patcher-args = "--legacy-options=options.json"
 
 [Twitter]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
