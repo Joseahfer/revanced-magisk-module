@@ -10,40 +10,39 @@ patcher-args = "-OappName='YouTube'"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+
+[Reddit]
+build-mode = "apk"
+uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
+apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit"
+patcher-args = "-OappName='Reddit'"
+apkmirror-dpi = "120-640dpi"
+version = "auto"
 
 [Twitch]
+build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch"
 uptodown-dlurl = "https://twitch.en.uptodown.com/android"
+version = "auto"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
 
 [Twitter]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
 build-mode = "apk"
 dpi = "120-640dpi"
+version = "auto"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
 
 [Tiktok]
+build-mode = "apk"
 apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
 included-patches = "'SIM spoof'"
 version = "auto"
 arch = "arm64-v8a"
 
-[Reddit]
-uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
-apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit"
-patches-source = "anddea/revanced-patches"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-included-patches = "'Change version code' 'Custom branding name for Reddit'"
-patcher-args = "--legacy-options=options.json"
-apkmirror-dpi = "120-640dpi"
-
 [Spotify]
+build-mode = "apk"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
-patches-source = "anddea/revanced-patches"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-included-patches = "'Change version code' 'Custom branding name for Spotify' 'Custom theme'"
-patcher-args = "--legacy-options=options.json"
+included-patches = "'Custom theme'"
+patcher-args = "-OappName='Spotify'"
 arch = "arm64-v8a"
