@@ -19,8 +19,8 @@ apkmirror-dpi = "120-640dpi"
 patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
-included-patches = "'Custom branding name for Reddit'"
-patcher-args = "-e 'Custom branding name for Reddit' -OappName='Reddit RVX'"
+included-patches = "'Change package name'"
+patcher-args = "-e 'Change package name' -OpackageNameReddit=com.reddit"
 
 [Twitter]
 enabled = false
