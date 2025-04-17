@@ -21,6 +21,7 @@ cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 included-patches = "'Change package name'"
 patcher-args = "-e 'Change package name' -OpackageNameReddit=com.reddit"
+version = "2025.05.1"
 
 [Twitter]
 enabled = false
