@@ -31,7 +31,6 @@ integrations-source = "crimera/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 cli-version = "v4.6.2"
 rv-brand = "ReVanced Extended"
-dpi = "120-640dpi"
 version = "auto"
 
 [Twitch]
