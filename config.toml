@@ -18,8 +18,8 @@ apkmirror-dpi = "120-640dpi"
 patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
-included-patches = "'Change package name'"
-patcher-args = "-e 'Change package name' -OpackageNameReddit=com.reddit.reddit"
+included-patches = "'Change version code'"
+#patcher-args = "-e 'Change package name' -OpackageNameReddit=com.reddit.reddit"
 
 [Twitter]
 enabled = false
@@ -47,5 +47,5 @@ uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
-included-patches = "'Custom theme'"
+included-patches = "'Custom theme' 'Change version code'"
 arch = "arm64-v8a"
