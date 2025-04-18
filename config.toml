@@ -26,11 +26,9 @@ rv-brand = "ReVanced Extended"
 
 [Twitter]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
-build-mode = "apk"
 patches-source = "crimera/piko"
 integrations-source = "crimera/revanced-integrations"
 cli-version = "v4.6.0"
-version = "auto"
 
 [Twitch]
 enabled = false
