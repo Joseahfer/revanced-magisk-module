@@ -19,7 +19,6 @@ patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 included-patches = "'Change version code'"
-#patcher-args = "-e 'Change package name' -OpackageNameReddit=com.reddit.reddit"
 
 [Twitter]
 enabled = false
