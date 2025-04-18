@@ -27,7 +27,6 @@ patches-source = "crimera/piko"
 integrations-source = "crimera/revanced-integrations"
 
 [Twitch]
-enabled = false
 build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch"
 uptodown-dlurl = "https://twitch.en.uptodown.com/android"
