@@ -1,5 +1,5 @@
 Reddit: 2025.12.1  
-Spotify: 9.0.38.433  
+Spotify: 9.0.40.4  
 Tiktok: 36.5.4  
 YouTube: 20.07.39  
 
